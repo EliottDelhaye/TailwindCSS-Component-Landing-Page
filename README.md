@@ -15,11 +15,11 @@ It is perfect for startups, tech companies, or any service-oriented business loo
 
 Full landing page (Desktop view):
 
-![Full Landing Page - Desktop View](captures/capture1.png)
+![Full Landing Page - Desktop View](captures/capture-1.png)
 
 Full landing page (Mobile view):
 
-![Full Landing Page - Mobile View](captures/capture2.png)
+![Full Landing Page - Mobile View](captures/capture-2.png)
 
 ## Access
 
