@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page SEO</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="relative">
+      <nav
+        class="fixed top-0 z-20 bg-gray-50 p-4 w-full grid grid-cols-none shadow-md md:max-w-7xl md:grid-cols-[100px,1fr,100px] md:shadow-none md:relative md:mx-auto md:bg-transparent"
+      >
+        <div class="flex justify-between items-center md:justify-center">
+          <a href="#accueil">
+            <img
+              src="ressources/logo site.png"
+              alt="rocket logo"
+              class="w-12"
+            />
+          </a>
+
+          <button
+            class="icone-toggle bg-white rounded-md p-2 ring-1 ring-black ring-opacity-20 md:hidden"
+          >
+            <img
+              src="ressources/menu.svg"
+              alt="icône hamburger"
+              class="h-6 w-6"
+            />
+          </button>
+        </div>
+
+        <ul
+          class="toggle-menu hidden px-1 pt-6 bg-gray-50 flex-col md:flex md:bg-transparent md:pt-0 md:flex-row md:space-x-10 md:w-auto md:items-center md:justify-center"
+        >
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a
+              href="#accueil"
+              class="font-medium text-lg text-zinc-800 hover:text-gray-900"
+              >Accueil</a
+            >
+          </li>
+
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a
+              href="#services"
+              class="font-medium text-lg text-zinc-800 hover:text-gray-900"
+              >Services</a
+            >
+          </li>
+
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a
+              href="#tarifs"
+              class="font-medium text-lg text-zinc-800 hover:text-gray-900"
+              >Nos Tarifs</a
+            >
+          </li>
+
+          <li
+            class="py-2 text-center border-t border-b border-gray-200 md:border-0"
+          >
+            <a
+              href="#contact"
+              class="font-medium text-lg text-zinc-800 hover:text-gray-900"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div
+          class="toggle-menu hidden justify-center items-center mt-6 md:mt-0 md:justify-end md:flex"
+        >
+          <a
+            href="#"
+            class="shadow-md px-6 py-2 border font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 text-center w-40"
+            >Log in</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="pt-40 pb-10 blue-bg px-5 z-0">
+        <div class="max-w-xl mx-auto">
+          <h1
+            class="text-4xl text-center font-extrabold tracking-tight lg:text-5xl"
+          >
+            FAITES DÉCOLLER VOTRE <br /><span class="text-blue-700"
+              >BUSINESS EN LIGNE</span
+            >
+          </h1>
+          <p class="text-center mt-4 lg:text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+            nunc nec nunc tincidunt aliquam.
+          </p>
+          <div
+            class="flex flex-col justify-center items-center gap-4 mt-10 mb-20 lg:flex-row"
+          >
+            <a
+              href="#"
+              class="min-w-[250px] rounded-md shadow px-8 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 text-center lg:text-xl lg:min-w-fit"
+              >Commencer 🚀</a
+            >
+            <a
+              href="#"
+              class="min-w-[250px] rounded-md shadow px-8 py-3 text-sm font-medium text-zinc-800 ring-1 ring-gray-200 bg-white hover:bg-gray-50 text-center lg:text-xl lg:min-w-fit"
+              >Démo 🕹️</a
+            >
+          </div>
+        </div>
+
+        <a
+          href="#services"
+          class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16 mx-auto"
+        >
+          <svg
+            class="w-6 h-6 text-violet-500 sm:w-8"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </section>
+
+      <section
+        id="services"
+        class="flex flex-col lg:flex-row-reverse cta-striper-bg"
+      >
+        <img
+          class="object-cover w-full max-h-64 lg:w-1/2 lg:max-h-[500px]"
+          src="./ressources/hommeTravail.jpg"
+          alt="Photo de couverture"
+        />
+        <div
+          class="flex flex-col justify-center items-center m-10 px-5 mx-auto"
+        >
+          <h1
+            class="text-3xl text-center font-extrabold tracking-tight text-blue-600"
+          >
+            <span class="text-black uppercase">Passez à l'action</span>
+            <br />
+            Boostez votre SEO
+          </h1>
+          <p class="text-center mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+            nunc nec nunc tincidunt aliquam.
+          </p>
+          <a
+            href="#"
+            class="min-w-[200px] rounded-md shadow px-8 py-3 my-5 text-md font-medium text-white bg-blue-600 hover:bg-blue-700 text-center"
+            >Essayez-le 🔥</a
+          >
+        </div>
+      </section>
+      <section
+        class="bg-gradient-to-r from-blue-600 to-blue-500 text-white p-10 text-center lg:py-24"
+      >
+        <h2 class="text-4xl font-bold lg:text-5xl">
+          10K+ Développeurs déjà convaincus
+        </h2>
+        <p class="my-3 lg:text-xl">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+          voluptates!
+        </p>
+        <div class="flex flex-col justify-center lg:flex-row lg:space-x-10">
+          <div>
+            <p class="text-4xl font-extrabold mt-10">100%</p>
+            <p class="font-semibold text-opacity-70 text-white">En ligne</p>
+          </div>
+          <div>
+            <p class="text-4xl font-extrabold mt-10">24/7</p>
+            <p class="font-semibold text-opacity-70 text-white">Support</p>
+          </div>
+          <div>
+            <p class="text-4xl font-extrabold mt-10">100K+</p>
+            <p class="font-semibold text-opacity-70 text-white">Projets</p>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-6xl mx-auto px-10">
+        <h2 class="text-4xl font-bold mt-16 text-center lg:text-5xl">
+          Prices range
+        </h2>
+        <hr class="max-w-32 mx-auto my-5" />
+        <p class="text-center lg:text-xl">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, dolore.
+        </p>
+        <ul class="py-16 flex gap-10 flex-wrap justify-center">
+          <li
+            class="flex flex-col bg-white text-black p-5 rounded-lg border-2 border-opacity-50 border-gray-400 min-w-64"
+          >
+            <h2 class="text-2xl font-bold text-left">Basic</h2>
+            <p class="text-left">Fill your basic needs</p>
+            <p class="text-left text-4xl font-extrabold py-2">
+              12€<span class="font-medium text-base">/month</span>
+            </p>
+            <p class="text-left font-medium uppercase text-sm mt-3">
+              included:
+            </p>
+            <ul class="flex flex-col gap-3 mt-3 mb-5">
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                1 user
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                1GB storage
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                1 email
+              </li>
+            </ul>
+            <button
+              class="bg-black text-white px-5 py-2 rounded-md w-full mt-auto"
+            >
+              Subscribe to this plan
+            </button>
+          </li>
+          <li
+            class="flex flex-col bg-white text-black p-5 rounded-lg border-2 border-opacity-50 border-gray-400 min-w-64"
+          >
+            <h2 class="text-2xl font-bold text-left">Pro</h2>
+            <p class="text-left">Fill your pro needs</p>
+            <p class="text-left text-4xl font-extrabold py-2">
+              24€<span class="font-medium text-base">/month</span>
+            </p>
+            <p class="text-left font-medium uppercase text-sm mt-3">
+              included:
+            </p>
+            <ul class="flex flex-col gap-3 mt-3 mb-5">
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                5 users
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                5GB storage
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                5 emails
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                5 domains
+              </li>
+            </ul>
+
+            <button
+              class="bg-black text-white px-5 py-2 rounded-md w-full mt-auto"
+            >
+              Subscribe to this plan
+            </button>
+          </li>
+          <li
+            class="flex flex-col bg-white text-black p-5 rounded-lg border-2 border-opacity-50 border-gray-400 min-w-64"
+          >
+            <h2 class="text-2xl font-bold text-left">Premium</h2>
+            <p class="text-left">Fill your premium needs</p>
+            <p class="text-left text-4xl font-extrabold py-2">
+              36€<span class="font-medium text-base">/month</span>
+            </p>
+            <p class="text-left font-medium uppercase text-sm mt-3">
+              included:
+            </p>
+            <ul class="flex flex-col gap-3 mt-3 mb-5">
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                10 users
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                10GB storage
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                10 emails
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                10 domains
+              </li>
+              <li class="flex gap-3">
+                <img src="./ressources/checked copy.svg" class="w-5" />
+                10 subdomains
+              </li>
+            </ul>
+            <button
+              class="bg-black text-white px-5 py-2 rounded-md w-full mt-auto"
+            >
+              Subscribe to this plan
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="text-center p-10 lg:py-14 divider-bg">
+        <h2 class="text-3xl font-extrabold lg:text-4xl">
+          Ces entreprises nous font confiance
+        </h2>
+        <div
+          class="flex justify-center items-center mt-10 space-x-5 lg:space-x-8"
+        >
+          <img
+            class="h-6 object-contain lg:h-8"
+            src="./ressources/IBM.png"
+            alt="logo IBM"
+          />
+          <img
+            class="h-6 object-contain lg:h-8"
+            src="./ressources/apple-logo.png"
+            alt="logo Apple"
+          />
+          <img
+            class="h-8 object-contain lg:h-10"
+            src="./ressources/github-logo.png"
+            alt="logo Github"
+          />
+          <img
+            class="h-10 object-contain lg:h-12"
+            src="./ressources/Audi.png"
+            alt="logo Audi"
+          />
+        </div>
+      </section>
+      <section class="px-10 py-20">
+        <h2 class="text-center text-4xl">Rentrons en contact</h2>
+        <hr class="max-w-32 mx-auto my-5" />
+        <form class="max-w-3xl mx-auto">
+          <label for="lastName" class="text-gray-600">Nom complet</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            class="w-full p-2 border border-gray-300 rounded-md mt-1 mb-5"
+            placeholder="Votre nom"
+          />
+          <label for="firstName" class="text-gray-600">Prénom</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            class="w-full p-2 border border-gray-300 rounded-md my-1 mb-5"
+            placeholder="Votre prénom"
+          />
+          <label for="email" class="text-gray-600">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full p-2 border border-gray-300 rounded-md my-1 mb-5"
+            placeholder="Votre email"
+          />
+          <label for="company" class="text-gray-600">Entreprise</label>
+          <input
+            type="text"
+            id="company"
+            name="company"
+            class="w-full p-2 border border-gray-300 rounded-md my-1 mb-5"
+            placeholder="Votre entreprise"
+          />
+          <label for="message" class="text-gray-600">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            class="w-full p-2 border border-gray-300 rounded-md my-1 mb-5"
+            placeholder="Votre message"
+          ></textarea>
+          <button
+            class="bg-blue-600 text-white px-5 py-2 rounded-md w-full mt-auto"
+          >
+            Envoyer
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-slate-100 text-gray-400 p-10">
+      <h2 class="text-center text-2xl">Retrouvez-nous ici</h2>
+      <div class="m-5 flex space-x-6 justify-center text-white">
+        <a href="#">
+          <img src="ressources/fb.svg" alt="icône fb" class="w-6" />
+        </a>
+
+        <a href="#">
+          <img
+            src="ressources/instagram.svg"
+            alt="icône instagram"
+            class="w-6"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="ressources/githubpetitlogo.svg"
+            alt="icône github"
+            class="w-6"
+          />
+        </a>
+
+        <a href="#">
+          <img src="ressources/twitter.svg" alt="icône twitter" class="w-6" />
+        </a>
+      </div>
+      <hr class="max-w-32 mx-auto my-5" />
+      <p class="text-center mt-8 text-base text-gray-400 md:mt-0">
+        &copy; 2024 Eliott Delhaye
+      </p>
+    </footer>
+  </body>
+</html>
