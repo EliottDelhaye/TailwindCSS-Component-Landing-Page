@@ -11,14 +11,6 @@ It is perfect for startups, tech companies, or any service-oriented business loo
 - Modern design elements that are visually appealing and easy to navigate.
 - PostCSS Integration: Utilizes PostCSS to process TailwindCSS, allowing for advanced customization and optimization.
 
-## Preview
-
-Full landing page (Desktop view):
-![Full Landing Page - Mobile View](captures/capture-2.png)
-
-Full landing page (Mobile view):
-![Full Landing Page - Desktop View](captures/capture-1.png)
-
 ## Access
 
 Explore a live demo of the complete landing page here: https://eliottdelhaye.github.io/TailwindCSS-Component-Landing-Page/
